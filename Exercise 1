@@ -1,0 +1,13 @@
+/** @format */
+
+let user = {
+  name: "John",
+  years: 30,
+  isAdmin: false,
+};
+
+//we use the destructuring assignment syntax
+
+var { name, years: age, isAdmin = false } = user;
+
+console.log(name, age);
